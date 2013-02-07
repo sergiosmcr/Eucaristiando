@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_options"
+        android:title="Opciones"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom">
+	    <menu>
+	        <item android:id="@+id/menu_addSinger"
+	        android:icon="@drawable/ic_action_add"
+	        android:title="Agregar nuevo salmista"
+	        android:orderInCategory="100"
+	        android:showAsAction="ifRoom" />
+	        <item android:id="@+id/menu_goToSingers"
+	        android:title="Ir a salmistas"
+	        android:icon="@drawable/ic_contact_button"
+	        android:orderInCategory="100"
+	        android:showAsAction="ifRoom" />
+	    </menu>
+	 </item>    
+</menu>
+

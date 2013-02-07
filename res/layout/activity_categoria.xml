@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sublayoutCanto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_canto"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Canto: "
+            android:textSize="@dimen/padding_large" />
+    
+	    <Spinner
+	        android:id="@+id/spinner_canto"
+	        style="@android:style/Widget.Spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:dropDownSelector="@drawable/ic_launcher"
+	        android:gravity="center"
+	        android:spinnerMode="dropdown"
+	        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sublayoutCantor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:id="@+id/textView_cantor"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:text="Salmista:"
+	        android:textSize="@dimen/padding_large" />
+    
+	    <Spinner
+	        android:id="@+id/spinner_cantor"
+	        style="@android:style/Widget.Spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:dropDownSelector="@drawable/ic_launcher"
+	        android:gravity="center"
+	        android:spinnerMode="dropdown"
+	        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+    </LinearLayout>
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sublayoutCanto2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_canto2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Canto: "
+            android:textSize="@dimen/padding_large" />
+    
+	    <Spinner
+	        android:id="@+id/spinner_canto2"
+	        style="@android:style/Widget.Spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:dropDownSelector="@drawable/ic_launcher"
+	        android:gravity="center"
+	        android:spinnerMode="dropdown"
+	        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sublayoutCantor2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:id="@+id/textView_cantor2"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:text="Salmista:"
+	        android:textSize="@dimen/padding_large" />
+    
+	    <Spinner
+	        android:id="@+id/spinner_cantor2"
+	        style="@android:style/Widget.Spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:dropDownSelector="@drawable/ic_launcher"
+	        android:gravity="center"
+	        android:spinnerMode="dropdown"
+	        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+    </LinearLayout>
+
+	
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sublayoutCanto3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_canto3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Canto: "
+            android:textSize="@dimen/padding_large" />
+    
+	    <Spinner
+	        android:id="@+id/spinner_canto3"
+	        style="@android:style/Widget.Spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:dropDownSelector="@drawable/ic_launcher"
+	        android:gravity="center"
+	        android:spinnerMode="dropdown"
+	        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sublayoutCantor3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:id="@+id/textView_cantor3"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:text="Salmista:"
+	        android:textSize="@dimen/padding_large" />
+    
+	    <Spinner
+	        android:id="@+id/spinner_cantor3"
+	        style="@android:style/Widget.Spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:dropDownSelector="@drawable/ic_launcher"
+	        android:gravity="center"
+	        android:spinnerMode="dropdown"
+	        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+    </LinearLayout>
+    <Button
+     android:id="@+id/boton_canto_ok"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="Ok" />
+
+    
+
+</LinearLayout>

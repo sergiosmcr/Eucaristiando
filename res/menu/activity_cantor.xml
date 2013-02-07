@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_addSinger"
+        android:icon="@drawable/ic_action_add"
+        android:title="Agregar salmista"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_removeSinger"
+        android:title="Eliminar varios salmistas"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+   
+    
+	  
+	   
+</menu>

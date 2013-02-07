@@ -1,0 +1,134 @@
+<resources>
+
+    <string name="app_name">Eucaristiando</string>
+    
+    <string name="title_activity_main">Eucaristiando</string>
+    <string name="title_activity_categoria">Categoria</string>
+    
+    <string name="title_activity_categoria_no_canto">CategoriaNoCanto</string>
+    <string name="title_activity_categoria_doble">CategoriaDoble</string>
+
+    <string name="title_activity_cantor">Salmistas</string><string-array name="songs">
+        <item>indefinido</item>
+        <item>A la  cena del cordero</item>
+        <item>A la víctima pascual</item>
+        <item>A nadie demos ocasión de tropiezo</item>
+        <item>A ti levanto mis ojos</item>
+        <item>A ti, Señor, en mi clamor imploro</item>
+        <item>A ti, Señor, levanto mi alma</item>
+        <item>A ti Señor, se debe la alabanza en Sión</item>
+        <item>Abbá Padre</item>
+        <item>Abraham</item>
+        <item>Aclamad al Señor</item>
+        <item>A dónde te encondiste amado</item>
+        <item>Al despertar</item>
+        <item>Alabad al Señor en el cielo</item>
+        <item>Alegría, ha nacido el salvador</item>
+        <item>Aleluya interleccional</item>
+        <item>Aleluya pascual</item>
+        <item>Aleluya, alabad al Señor</item>
+        <item>Aleluya, bendecid al Señor</item>
+        <item>Aleluya, ya llegó el reino</item>
+        <item>Alzaos puertas</item>
+        <item>Amén, amén, amén</item>
+        <item>Amo al Señor</item>
+        <item>Antífona - versículo antes del Evangelio</item>
+        <item>Aquedah</item>
+        <item>Así habla el amén</item>
+        <item>Ave María I</item>
+        <item>Ave María II (1984)</item>
+        
+        <item>Babilonia Criminal</item>
+        <item>Balaam</item>
+        <item>Bendeciré al Señor en todo tiempo</item>
+        <item>Bendice, alma mía, a Yaveh</item>
+        <item>Bendición del agua</item>
+        <item>Bendición penitencial</item>
+        <item>Bendita eres tú, María</item>
+        <item>Bendito eres, Señor</item>
+        <item>Bendito sea Dios</item>
+        <item>Benedictus</item>
+        
+        <item>Cantad a Dios</item>
+        <item>Cantad al Señor</item>
+        <item>Cántico de los tres jóvenes</item>
+        <item>Canto de Moisés</item>
+        <item>Caritas Christi urget nos</item>
+        <item>Como condenados a muerte</item>
+        <item>Como destila la miel</item>
+        <item>Como el impulso que siente la ira</item>
+        <item>Cómo es maravilloso</item>
+        <item>Como la cierva</item>
+        <item>Como lirio entre los cardos</item>
+        <item>Consolad a mi pueblo</item>
+        <item>Cordero de Dios</item>
+        <item>Credo</item>
+        <item>Cristo es la Luz</item>
+        <item>Cuando dormía</item>
+        <item>Cuando el Señor</item>
+        <item>Cuando Israel salió de Egipto</item>
+        
+        <item>Dayenú</item>
+        <item>De profundis</item>
+        <item>Débora</item>
+        <item>Decidle a los de corazón cansado</item>
+        <item>Delante de ls ángeles</item>
+        <item>Día de reposo</item>
+        <item>Dice el Señor a mi Señor</item>
+        <item>Dichoso el hombre</item>
+        
+        <item>El combate escatológico</item>
+        <item>El Espíritu del Señor está sobre mí</item>
+        <item>El jacal de los pastores</item>
+        <item>El lagarero</item>
+        <item>El mismo Dios</item>
+        <item>El necio piensa que Dios no existe</item>
+        <item>El pueblo que caminaba en la tinieblas</item>
+        <item>El sembrador</item>
+        <item>El Señor anuncia una noticia</item>
+        <item>El Señor es mi pastor</item>
+        <item>El Señor me ha dado</item>
+        <item>Elí, Elí, lamá sabactaní</item>
+        <item>En medio de aquel gentío</item>
+        <item>En una noche oscura</item>
+        <item>Eres digno de tomar el libro</item>
+        <item>Eres hermoso</item>
+        <item>Escóndeme en lo oculto de tu tienda</item>
+        <item>Escuchad islas lejanas</item>
+        <item>Están rotas mis ataduras</item>
+        <item>Éste es el día en qe actuó el Señor</item>
+        <item>Este es el mandamiento mío</item>
+        <item>Evenu shalom alejem</item>
+        <item>Extiendo mis manos</item>
+        <item>Exultad justos en el Señor</item>
+        <item>Felicidad para el hombre</item>
+        
+    </string-array>
+    <string-array name="categories">
+        <item>Entrada</item>
+        <item>Gloria</item>
+        <item>Salmo Responsorial</item>
+        <item>Aleluya</item>
+        <item>Peticiones</item>
+        <item>Paz</item>
+        <item>Santo</item>
+        <item>Cordero</item>
+        <item>Cuerpo de Cristo</item>
+        <item>Sangre de Cristo</item>
+        <item>Salida</item>
+    </string-array><string name="menu_settings">Settings</string><string name="menu_share">Compartir</string>
+
+    <string name="menu_addSinger">Agregar Salmista</string>
+    <string name="menu_about">Acerca de Eucaristiando</string>
+    <string name="menu_removeSinger">Eliminar</string>
+    <string name="menu_saveChanges">Guardar Cambios</string>
+    
+    <string name="menu_cancel">Cancelar</string>
+    
+    <string name="ONE_ONE">one song - one singer</string>
+    
+    <string name="ZERO_ONE">no song - one singer</string>
+    
+    <string name="TWO_TWO">two songs - two singers</string>
+
+</resources>
